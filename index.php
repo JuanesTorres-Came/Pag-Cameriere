@@ -19,7 +19,7 @@
         <a href="#" class="logout">⎋ Salir</a>
       </div>
     </aside>
-
+    
     <main class="content">
       <header class="header">
         <h1 class="title">Cameriere</h1>
