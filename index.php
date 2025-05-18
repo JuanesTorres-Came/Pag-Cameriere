@@ -11,29 +11,28 @@
   <div class="container">
     <aside class="sidebar">
       <div class="menu">
-        <a href="#">🏠 Home</a>
+        <a href="#">Home</a>
         <a href="#">Perfil</a>
         <a href="#">Came</a>
         <a href="#">Productos</a>
         <a href="#">Facturas</a>
-        <a href="#" class="logout">⎋ Salir</a>
+        <a href="#" class="logout">Salir</a>
       </div>
     </aside>
-    
+
     <main class="content">
       <header class="header">
         <h1 class="title">Cameriere</h1>
       </header>
 
       <div class="profile">
-        <img src="https://via.placeholder.com/100" alt="Foto de perfil" class="profile-pic">
+        <img src="img/Foto perfil.webp" alt="Foto de perfil" class="profile-pic">
         <p>Foto de perfil</p>
       </div>
 
       <form class="form">
         <label>Nombre Admin
           <input type="text" placeholder="Nombre Admin">
-          <span class="icon">🔄</span>
         </label>
         <label>Nombre restaurante
           <select>
@@ -42,11 +41,9 @@
         </label>
         <label>Contraseña
           <input type="password" placeholder="Contraseña">
-          <span class="icon">🔄</span>
         </label>
         <label>Correo
           <input type="email" placeholder="Correo">
-          <span class="icon">🔄</span>
         </label>
         <button type="submit" class="save-button">Guardar</button>
       </form>
