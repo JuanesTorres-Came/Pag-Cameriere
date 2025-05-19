@@ -26,24 +26,27 @@
       </header>
 
       <div class="profile">
-        <img src="img/Foto perfil.webp" alt="Foto de perfil" class="profile-pic">
+        <img src="img/Foto perfil.webp" alt="Foto de perfil" class="profile-pic" required>
         <p>Foto de perfil</p>
       </div>
 
       <form class="form">
         <label>Nombre Admin
-          <input type="text" placeholder="Nombre Admin">
+          <input type="text" name="nombre_admin" placeholder="Nombre Admin" required>
         </label>
         <label>Nombre restaurante
-          <select>
+          <select name="restaurante" required>
             <option>Selecciona restaurante</option>
+            <option>Restaurante 1</option>
+            <option>Restaurante 2</option>
+            <option>Restaurante 3</option>
           </select>
         </label>
-        <label>Contraseña
-          <input type="password" placeholder="Contraseña">
-        </label>
         <label>Correo
-          <input type="email" placeholder="Correo">
+          <input type="email" name="correo" placeholder="Correo" required>
+        </label>
+        <label>Contraseña
+          <input type="password" name="contraseña"placeholder="Contraseña" required>
         </label>
         <button type="submit" class="save-button">Guardar</button>
       </form>
